@@ -1,0 +1,9 @@
+.nav-link{
+    color:black;
+    font-size: 19px;
+}
+.nav-link:hover {
+    color: green;
+  }
+
+
