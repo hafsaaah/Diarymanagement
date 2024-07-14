@@ -88,4 +88,8 @@
       font-size: 1.2rem;
     }
 }
-  
+
+.navbar.sticky-top {
+  top: -100px;
+  transition: .5s;
+}
