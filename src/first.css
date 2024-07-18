@@ -122,3 +122,21 @@ display: inline-block;
 text-transform: uppercase;
 font-weight: 600;
 }
+.banner {
+  position: relative;
+  height: 400px; /* Adjust the height as needed */
+  background-image: url('img/banner.jpg'); /* The image URL */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1);
+}
+.parallax{
+  background-image: url(../img/banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
