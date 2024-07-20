@@ -1,3 +1,10 @@
+:root {
+  --primary: #5B8C51;
+  --secondary: #EDDD5E;
+  --light: #F7F7F7;
+  --dark: #404A3D;
+}
+
 .nav-link{
   color:black;
   font-size: 19px;
@@ -210,4 +217,28 @@ font-weight: 600;
 .service-item:hover .service-text h5,
 .service-item:hover .service-text p {
     color: #FFFFFF;
+}.service-item .service-text .btn {
+  
+  background: #FFFFFF;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .25);
 }
+
+.service-item .service-text .btn:hover {
+  color: var(--dark);
+  background: var(--secondary);
+}
+/*** Button ***/
+.btn {
+  transition: .5s;
+  font-weight: 500;
+}
+
+
+
+
+
+.btn-square {
+  width: 38px;
+  height: 38px;
+}
+
