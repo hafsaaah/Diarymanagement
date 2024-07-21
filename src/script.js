@@ -8,3 +8,6 @@ window.addEventListener('scroll', function() {
         navbar.style.top = '-100px';
     }
 });
+
+  
+
